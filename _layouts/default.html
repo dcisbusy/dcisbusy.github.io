@@ -26,39 +26,22 @@
 
   <body>
     <div class="wrapper-masthead">
-      <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#top">!!David Charles <small>Writer and Coder</small></a>
-    </div>
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#top">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://twitter.com/dcisbusy"><i class="fa fa-twitter fa-lg"></i></a></li>
-      <li><a href="https://github.com/dcisbusy"><i class="fa fa-github fa-lg"></i></a></li>
-      <li><a href="https://www.freecodecamp.com/dcisbusy"><i class="fa fa-free-code-camp fa-lg"></i></a></li>
-      <li><a href="http://davidcharles.info/"><i class="fa fa-globe fa-lg"></i></a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</div><!-- end container -->
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/feed">RSS</a>
+          </nav>
+        </header>
+      </div>
     </div>
 
     <div id="main" role="main" class="container">
