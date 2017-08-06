@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Show Your Work - Austin Kleon
+category: Books
 ---
 Inspiring read about self-promotion for people who hate self-promotion.
 Published 2014
