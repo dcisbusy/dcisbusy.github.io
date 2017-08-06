@@ -6,7 +6,7 @@ permalink: /books/
 ---
 I read loads of books. These are some I've made notes on.
 
-[Austin Kleon]({{ site.url }}/2017-08-06-show-your-work-austin-kleon.md)
+[Show Your Work! by Austin Kleon]({{ site.url }}/2017-08-06-show-your-work-austin-kleon)
 
 
 
