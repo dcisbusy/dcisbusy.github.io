@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Show Your Work - Austin Kleon
 ---
 Inspiring read about self-promotion for people who hate self-promotion.
