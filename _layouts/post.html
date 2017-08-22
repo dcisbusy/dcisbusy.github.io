@@ -17,7 +17,7 @@ published: true
   </div>
   
   <div class="category">
-    Posted in {{ page.categories }} and tagged with {{ page.tags }}
+    Posted in {{ page.categories }} and tagged with {{ page.tags | split:'|' }}
   </div>
   
   <div class="related">
