@@ -11,7 +11,7 @@ permalink: /all-topics/
     {{ category[0] }}
   {% endfor %}
 {% endcapture %}
-{% assign sortedcategories = categories | sort %}
+{% assign sortedcategories = categories | split:' ' | sort %}
 
 {% for category in sortedcategories %}
   <h3 id="{{ category }}">{{ category }}</h3>
