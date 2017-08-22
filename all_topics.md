@@ -8,7 +8,7 @@ permalink: /all-topics/
 {% capture categories %}{% for category in site.categories %}{{ category[0] }}|{% endfor %}{% endcapture %}
 {% assign sortedcategories = categories | split:'|' | sort %}
 
-{% for tag in sortedcategories %}
+{% for category in sortedcategories %}
   <a name="{{ category }}"></a>
   <h5>{{ category }}</h5>
   <ul>
