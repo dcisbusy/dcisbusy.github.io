@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 
 <article class="post">
@@ -8,9 +9,15 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
+  
+  <hr />
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+  
+  <div class="category">
+    Posted in {{ page.categories }} and tagged with {{ page.tags }}
   </div>
 
   {% include disqus.html %}
