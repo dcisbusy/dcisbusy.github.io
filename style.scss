@@ -115,9 +115,12 @@ img {
   max-width: none;
 }
 
-.date, category {
+.date, .category {
   font-style: italic;
   color: $gray;
+}
+
+.related {
 }
 
 // Specify the color of the selection
