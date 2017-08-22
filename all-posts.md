@@ -4,7 +4,7 @@ title: All Posts
 permalink: /all-posts/
 published: true
 ---
-Here's an index of all the posts I've ever written on this blog:
+Here's an index of all the posts I've ever written on this blog (most recent first):
 <ul>
   {% for post in site.posts %}
     <li>
