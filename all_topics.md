@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: page
 title: All Topics
+published: true
+permalink: /all-topics/
 ---
 
 <h1>{{ page.title }}</h1>
