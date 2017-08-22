@@ -1,6 +1,14 @@
 ---
 layout: post
 title: No Shampoo
+published: true
+categories:
+  - Positive Constraints
+tags:
+  - personal hygeine
+  - shower
+  - consumption
+  - no shampoo
 ---
 I haven't used shampoo or conditioner on my hair for 3 months. (Or body wash, shower gel or anything other than soap to clean the rest of me!)
 
