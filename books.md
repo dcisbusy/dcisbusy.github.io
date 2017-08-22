@@ -4,7 +4,7 @@ title: Books
 permalink: /books/
 published: true
 ---
-I've written a number of books. I sell these for download under a Pay What You Want (PWYW) policy. If you're looking for hard copies, then [check my Lulu page](http://www.lulu.com/shop/search.ep?contributorId=990132). You're welcome. 
+I've written a number of books. I sell these for download under a Pay What You Want (PWYW) policy. If you're looking for hard copies, then [check my Lulu page](http://www.lulu.com/spotlight/davidcharlesisbusy). You're welcome. 
 
 <h5>How PWYW Works</h5>
 If you've got money, name a fair price and the book's yours. If you haven't the money, then go ahead and download for free anyway. INSIDER TIP: On average, I tend to get $1-2 per download. That's a lot of people downloading for free and the lucky few chucking in $5 or more. It all evens out in the end. 
