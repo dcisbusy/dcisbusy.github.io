@@ -10,7 +10,7 @@ permalink: /all-topics/
 
 {% for tag in sortedcategories %}
   <a name="{{ category }}"></a>
-  <h3>{{ category }}</h3>
+  <h5>{{ category }}</h5>
   <ul>
     {% for post in site.categories[category] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -24,7 +24,7 @@ permalink: /all-topics/
 
 {% for tag in sortedtags %}
   <a name="{{ tag }}"></a>
-  <h3>{{ tag }}</h3>
+  <h5>{{ tag }}</h5>
   <ul>
     {% for post in site.tags[tag] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
