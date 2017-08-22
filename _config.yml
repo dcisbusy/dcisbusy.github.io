@@ -13,6 +13,14 @@ description: Writer
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/26669694?v=4&u=3af6e995942dd80a87c4b77c526790bb45074d48&s=400
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      categories: "uncategorised"
+
 #
 # Flags below are optional
 #
