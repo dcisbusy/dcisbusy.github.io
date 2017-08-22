@@ -2,6 +2,13 @@
 layout: post
 title: I'm up and running!
 published: true
+categories:
+  - Coding
+tags:
+  - Jekyll
+  - Blog
+  - History
+  - Me me me
 ---
 I've had this blog since 2004, would you believe? In that time I've mucked around with various platforms, including
 - PmWiki 2004-2006
@@ -14,4 +21,3 @@ But now it's time for something completely different. Wordpress is great, but it
 There won't be any comments, unless I set up a Disqus account (something I used years ago). I might just forward people to Twitter or Github if they want to chat. Probably for the best.
 
 For now, enjoy the stripped down new look and feel the speed.
-
