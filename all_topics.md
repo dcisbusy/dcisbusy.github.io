@@ -4,12 +4,27 @@ title: All Topics
 published: true
 permalink: /all-topics/
 ---
+<h2>Categories</h2>
+{% capture categories %}{% for category in site.categories %}{{ category[0] }}|{% endfor %}{% endcapture %}
+{% assign sortedcategories = categories | split:'|' | sort %}
+
+{% for tag in sortedcategories %}
+  <a name="{{ category }}"></a>
+  <h3>{{ category }}</h3>
+  <ul>
+    {% for post in site.categories[category] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<h2>Tags</h2>
 {% capture tags %}{% for tag in site.tags %}{{ tag[0] }}|{% endfor %}{% endcapture %}
 {% assign sortedtags = tags | split:'|' | sort %}
 
 {% for tag in sortedtags %}
   <a name="{{ tag }}"></a>
-  <h2>{{ tag }}</h2>
+  <h3>{{ tag }}</h3>
   <ul>
     {% for post in site.tags[tag] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -19,7 +34,7 @@ permalink: /all-topics/
 
 
 
-<h2>Categories</h2>
+
 
 {% capture categories %}
   {% for category in site.categories %}
@@ -37,7 +52,7 @@ permalink: /all-topics/
   </ul>
 {% endfor %}
 
-<h2>Tags</h2>
+
 
 {% capture tags %}
   {% for tag in site.tags %}
