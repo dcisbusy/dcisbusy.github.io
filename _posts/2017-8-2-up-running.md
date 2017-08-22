@@ -6,9 +6,8 @@ categories:
   - Coding
 tags:
   - Jekyll
-  - Blog
-  - History
-  - Me me me
+  - blog
+  - history
 ---
 I've had this blog since 2004, would you believe? In that time I've mucked around with various platforms, including
 - PmWiki 2004-2006
