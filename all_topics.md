@@ -11,7 +11,7 @@ permalink: /all-topics/
     {{ category[0] }}
   {% endfor %}
 {% endcapture %}
-{% assign sortedcategories = categories | split:' ' | sort %}
+{% assign sortedcategories = categories | split:'|' | sort %}
 
 {% for category in sortedcategories %}
   <h3 id="{{ category }}">{{ category }}</h3>
@@ -29,7 +29,7 @@ permalink: /all-topics/
     {{ tag[0] }}
   {% endfor %}
 {% endcapture %}
-{% assign sortedtags = tags | split:' ' | sort %}
+{% assign sortedtags = tags | split:'|' | sort %}
 
 {% for tag in sortedtags %}
   <h3 id="{{ tag }}">{{ tag }}</h3>
